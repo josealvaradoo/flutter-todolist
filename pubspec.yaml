@@ -42,6 +42,8 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
      - assets/images/background/background-hdpi/Background.png
+     - assets/images/icons/avatar.png
+     - assets/images/icons/hand-emoji.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
