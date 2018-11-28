@@ -24,16 +24,9 @@ class MyApp extends StatelessWidget {
                 child: Container(
 									child: Column(
 										children: <Widget>[
-											Expanded(
-												child: Container(
-													constraints: BoxConstraints.expand(),
-													padding: EdgeInsets.all(20.0),
-													child: WelcomeBar(
-														name: 'Jose',
-														avatar: 'assets/images/icons/avatar.png'
-													)
-												),
-												flex: 1
+											WelcomeBar(
+												name: 'Jose',
+												avatar: 'assets/images/icons/avatar.png'
 											),
 											Expanded(
 												child: Container(
