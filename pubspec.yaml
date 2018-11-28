@@ -44,6 +44,8 @@ flutter:
      - assets/images/background/background-hdpi/Background.png
      - assets/images/icons/avatar.png
      - assets/images/icons/hand-emoji.png
+     - assets/images/icons/completed.png
+     - assets/images/icons/non-completed.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
