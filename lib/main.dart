@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'widgets/WelcomeBar.dart';
-import 'widgets/TaskItem.dart';
+import 'widgets/TaskList.dart';
 
 void main() => runApp(MyApp());
 
@@ -29,22 +29,7 @@ class MyApp extends StatelessWidget {
 												name: 'Jose',
 												avatar: 'assets/images/icons/avatar.png'
 											),
-											Expanded(
-												child: Container(
-													child: ListView(
-														children: <Widget>[
-															TaskItem(
-																title: 'Task completed',
-																completed: true,
-															),
-															TaskItem(
-																title: 'Task non-completed'
-															)
-														],
-													),
-												),
-												flex: 5
-											),
+											TaskList(),
 										],
 									),
                   decoration: BoxDecoration(
