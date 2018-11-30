@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'widgets/WelcomeBar.dart';
-import 'widgets/TaskList.dart';
+import 'views/HomeView.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,22 +21,8 @@ class MyApp extends StatelessWidget {
                 flex: 1,
               ),
               Expanded(
-                child: Container(
-									child: Column(
-										children: <Widget>[
-											WelcomeBar(
-												name: 'Jose',
-												avatar: 'assets/images/icons/avatar.png'
-											),
-											TaskList(),
-										],
-									),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.only(topLeft: Radius.circular(30.0), topRight: Radius.circular(30.0))
-                  ),
-                ),
-                flex: 2,
+                child: HomeView(),
+                flex: 3
               )
             ]
           ),
