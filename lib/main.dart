@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'views/HomeView.dart';
+import 'views/TaskView.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
                 flex: 1,
               ),
               Expanded(
-                child: HomeView(),
+                child: TaskView(),
                 flex: 3
               )
             ]

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../widgets/TaskTitle.dart';
+import '../widgets/task/TaskTitle.dart';
+import '../widgets/task/TaskContent.dart';
 
 class TaskView extends StatelessWidget {
 	@override
@@ -10,6 +11,9 @@ class TaskView extends StatelessWidget {
 					TaskTitle(
 						title: 'Aprender Flutter',
 					),
+					TaskContent(
+						text: 'Lorem ipsum lorem'
+					)
 				],
 			),
 			decoration: BoxDecoration(

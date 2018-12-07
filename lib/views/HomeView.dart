@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../widgets/WelcomeBar.dart';
-import '../widgets/TaskList.dart';
+import '../widgets/task/TaskList.dart';
 
 class HomeView extends StatelessWidget {
 	@override

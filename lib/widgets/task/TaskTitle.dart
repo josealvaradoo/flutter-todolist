@@ -17,8 +17,7 @@ class TaskTitle extends StatelessWidget {
 						color: Colors.black,
 						fontWeight: FontWeight.w900,
 						fontSize: 30.0
-					),
-					overflow: TextOverflow.ellipsis,
+					)
 				),
 			),
 			flex: 1
